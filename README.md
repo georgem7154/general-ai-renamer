@@ -12,15 +12,6 @@ run the software and you get it renamed to Reindeer_in_snowy_landscape_DESC.jpg
 2. run the exe which will auto install all the packages and get you ready to execute on the go, first time run might be slow
 
 # Challenges faced and solved
-That's the final piece of the puzzle! The configuration save/load feature is a major improvement for **user experience (UX)**.
-
-Here is the complete, final summary of all the challenges faced during development and the technical solutions implemented, including the API retries, batching, the file restoration system, and the new configuration management.
-
-## 🏆 Comprehensive Summary of Challenges & Solutions
-
-The development of the Batch AI Image Renamer focused on achieving a balance between **speed (using batching)**, **reliability (handling errors and complex inputs)**, and **usability (saving configuration)**.
-
----
 
 ### 🚀 Speed and Efficiency Challenges
 
@@ -51,7 +42,10 @@ The development of the Batch AI Image Renamer focused on achieving a balance bet
 | :--- | :--- | :--- |
 | **C10: Repetitive Input** | The user had to enter the API key and select the folder path every time they ran the script. | **Configuration File Management:** Implemented the `load_config` and `save_config` functions to store the **API key** and **default folder path** in a local `config.txt` file, ensuring the settings persist across sessions. |
 
+
+
 # ADVANCED EXPLAINATION
+
 ## 🏗️ Architectural Components
 
 | Component | Role | Gemini Interaction |
