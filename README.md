@@ -4,7 +4,7 @@ So for a folder we have this image which is named as image.jpg. To know the imag
 Take this image, it named as image.png at first
 ![image](https://github.com/user-attachments/assets/266ef246-e830-405c-8032-0b3cbc68972e)
 
-run the software and you get it renmaed to Reindeer_in_snowy_landscape_DESC.jpg
+run the software and you get it renamed to Reindeer_in_snowy_landscape_DESC.jpg
 
 # Installation and running
 1. You can run the python file but will have to install all packages
